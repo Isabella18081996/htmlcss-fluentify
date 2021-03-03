@@ -127,5 +127,8 @@ header{
 
 .jumbotron-text a{
   text-decoration: none;
+}
 
+.jumbotron-text h1{
+  color: white;
 }
