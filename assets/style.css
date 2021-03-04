@@ -6,11 +6,11 @@
   box-sizing: border-box;
 }
 
-/* .clearix::after{
+.clearix::after{
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 .float-left{
   float: left;
@@ -32,6 +32,7 @@ header{
   background-color: #0C325A;
   height: 550px;
   width: 100%;
+  overflow: hidden;
 }
 
 .header-container{
@@ -105,8 +106,14 @@ header{
 
 .button.button-green{
   background-color: #7CBB04;
+  
 }
 
+.button-large{
+ padding: 15px;
+ text-transform: uppercase;
+
+}
 
 .jumbotron{
   position: relative;
@@ -119,7 +126,7 @@ header{
   transform: translateY(-50%);
 }
 
-.jumbotron-text h1{
+.jumbotron-text h2{
   color: white;
   font-size: 350%;
   margin-bottom: 30px;
@@ -131,4 +138,73 @@ header{
 
 .jumbotron-text h1{
   color: white;
+}
+
+
+
+.row-gray{
+  width: 100%;
+  height: 100px;
+  background-color: #D3D3D3;
+  text-align: center;
+  padding: 20px 20px;
+
+}
+
+.row-gray h2{
+  color: black;
+  font-size: 20px;
+  line-height: 40px;
+
+}
+
+span{
+  color: #808080;
+  font-size: 13px;
+}
+
+.main-content{
+  width: 80%;
+  margin: auto;
+  background-color: green;
+}
+
+.colonna{
+  width: 30%;
+  /* background-color: indianred; */
+}
+
+.colonna-center{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.colonna img{
+  width: 50%;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.colonna h4{
+  color: #7DBB05;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.colonna p{
+  text-align: center;
+}
+
+.riga{
+  border-bottom: 1px solid gray;
+  width: 20%;
+  margin: auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
