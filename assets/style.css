@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.clearix::after{
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
@@ -166,7 +166,6 @@ span{
 .main-content{
   width: 80%;
   margin: auto;
-  background-color: green;
 }
 
 .colonna{
@@ -192,8 +191,9 @@ span{
 
 .colonna h4{
   color: #7DBB05;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
+  height: 50px;
 }
 
 
@@ -207,4 +207,61 @@ span{
   margin: auto;
   padding-top: 20px;
   margin-bottom: 20px;
+}
+
+hr{
+  color:gray;
+}
+
+.primoscomparto img{
+ margin-top: 15px;
+}
+
+.secondoscomparto h2{
+  color: black;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.secondoscomparto p{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+footer{
+  margin-top: 30px;
+}
+
+.footer-section{
+  width: 80%;
+  margin:auto;
+}
+
+.footer-text{
+  width: 50%;
+  text-align: left;
+  
+}
+
+.footer-seleziona{
+  width: 25%;
+  
+}
+
+.footer-button {
+  width: 25%;
+}
+
+.footer-btn{
+  text-decoration: none;
+}
+
+.footer-seleziona div{
+  display: inline-block;
+  margin-left: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.footer-seleziona div span {
+  padding-left: 55px;
 }
