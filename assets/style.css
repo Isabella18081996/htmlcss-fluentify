@@ -211,6 +211,8 @@ span{
 
 hr{
   color:gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .primoscomparto img{
@@ -235,16 +237,19 @@ footer{
 .footer-section{
   width: 80%;
   margin:auto;
+  height: 100%;
 }
 
 .footer-text{
   width: 50%;
   text-align: left;
+  padding-top: 15px;
   
 }
 
 .footer-seleziona{
   width: 25%;
+  padding-top: 20px;
   
 }
 
