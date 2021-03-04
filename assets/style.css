@@ -211,8 +211,8 @@ span{
 
 hr{
   color:gray;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .primoscomparto img{
@@ -269,4 +269,20 @@ footer{
 
 .footer-seleziona div span {
   padding-left: 55px;
+}
+
+.help{
+  position: fixed;
+  bottom: 0%;
+  right:5%;
+  background-color: #7DBB05;
+  color: white;
+  text-transform: uppercase;
+  width: 50px;
+  height: 20px;
+  text-align: center;
+}
+
+.help:hover{
+  height: 30px;
 }
